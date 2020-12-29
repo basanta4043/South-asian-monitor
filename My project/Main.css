@@ -1,0 +1,125 @@
+#topbar{
+    background-color: #504d4d;
+    width: 100%;
+    height: 120px;
+}
+#logo1{
+text-align: right;
+top: 0px;
+bottom: 0px;
+}
+#logo
+{
+    top: 0px;
+}
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    color: black;
+
+  }
+  
+ 
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration:none;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: bold;
+    overflow: hidden;
+
+  }
+  
+
+.topnav a:hover {
+    background-color: black;
+    color: yellow;
+
+  }
+  
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: black;
+    color: yellow;
+    
+
+    }
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+      
+    }
+  
+  .dropdown:hover .dropbtn {
+      background-color: black;
+      color: yellow;
+    }
+    .topnav input[type=text] {
+        display: none;
+        float: right;
+        padding: 6px;
+        margin-top: 8px;
+        margin-right: 120px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+      }
+      #searchbtn{
+          padding: 8px;
+          margin-left: 75px;
+      }
+      #searchbtn:hover +.topnav input[type=text]{
+          display: block;
+      }
+      .archive{
+          
+      }
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 15px;
+        text-align: center;
+        text-decoration: none;
+      }
+      .fa:hover {
+        opacity: 0.7;
+      }
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-youtube{
+          background-color: red;
+      }
+      .fa-instagram{
+       background-color: #ff8800;
+      }
+     
